@@ -2,7 +2,7 @@
 
 A statistical analysis of the UCI *Predict Students' Dropout and Academic Success* dataset (4,424 students from a Portuguese higher education institution). The project covers eight analyses: distribution and outlier inspection, correlation analysis, Fisher Distance, PCA, LDA, four clustering methods (K-Means, DBSCAN, t-SNE, SOM), and a hypothesis test with power analysis.
 
-**Author:** Nashit · Gebze Technical University, Department of Computer Engineering
+
 
 ## Key findings
 
@@ -12,15 +12,6 @@ A statistical analysis of the UCI *Predict Students' Dropout and Academic Succes
 - **The Enrolled class is intrinsically transitional.** All four clustering methods recover a clear Dropout-to-Graduate gradient but none isolates Enrolled as its own cluster. LDA silhouette is 0.224, well below the 0.5 threshold for well-defined clusters.
 - **LDA beats PCA by 2.34× on Fisher Distance and 3.2× on silhouette** in 2D, as theory predicts.
 
-## Repository contents
-
-| File | Description |
-|---|---|
-| `Final_Project_Notebook.ipynb` | Complete executed notebook, 8 tasks, 17 plots embedded |
-| `student_success.csv` | UCI dataset (4,424 rows × 37 columns) |
-| `paper/main.tex` | IEEE-format paper |
-| `paper/main.pdf` | Compiled paper |
-| `paper/figures/` | All figures used in the paper |
 
 ## Running the notebook
 
